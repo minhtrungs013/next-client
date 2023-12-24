@@ -125,7 +125,7 @@ const Summary = () => {
 
                     <PayPalScriptProvider
                         options={{
-                            'client-id': process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || 'AUAh1lv8zihqTc-685qs-fIMoz8ZW9Ucs7twLqWHXJbJdcdomTXiYegQlJ9Nah7PJZOQpttS0-Bwfns_',
+                            clientId: process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || 'AUAh1lv8zihqTc-685qs-fIMoz8ZW9Ucs7twLqWHXJbJdcdomTXiYegQlJ9Nah7PJZOQpttS0-Bwfns_',
                             currency: 'USD',
                             intent: 'capture'
                         }} >
